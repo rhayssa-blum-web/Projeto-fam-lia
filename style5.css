@@ -3,12 +3,12 @@
 
 @font-face {
     font-family: font1;
-    src: url(/fontes/monofur/monof56.ttf);
+    src: url(fonte/monof55.ttf);
 }
 
 @font-face {
     font-family: font2;
-    src: url(/fontes/louis_george_cafe/Louis\ George\ Cafe\ Bold\ Italic.ttf);
+    src: url(fonte/Louis\ George\ Cafe\ Bold\ Italic.ttf);
 }
 
 .titulo{

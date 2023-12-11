@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
+    font-family: fonth3;
+    src: url(fonte/monof55.ttf);
+}
+
+@font-face {
     font-family: fonttext;
-    src: url(Fontes/Belgiano\ Serif\ 2.otf);
+    src: url(fonte/Louis\ George\ Cafe\ Bold\ Italic.ttf);
 }
 
 body{
@@ -27,7 +32,8 @@ header {
 a{
     text-decoration: none;
     color: #51a6d1;
-    padding-right: 30px;
+    padding-right: 4px;
+    font-family: fonth3;
 }
 
 .container{
@@ -64,6 +70,7 @@ a{
 }
 
 .btn{
+    font-size: 1.1em;
     display: inline-block;
     background: #000;
     color: #fff;
@@ -90,5 +97,41 @@ a{
 ul{
     display: flex;
     position: absolute;
-    left: 10%;
+    left: 60px;
+}
+
+h3{
+    font-family: fonth3;
+    font-size: 1.4em;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: fonttext;
+}
+
+.textright{
+    padding-right: 40px;
+}
+
+.textleft{
+    padding-left: 20px;
+}
+
+.corsim{
+    color: #080075;
+}
+
+.cornao{
+    color: #00318d;
+}
+
+span{
+    color: #fff;
+}
+
+.casa{
+    font-size: 1.1em;
+    padding-right: 20px;
 }
